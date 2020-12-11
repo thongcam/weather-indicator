@@ -1,0 +1,29 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#content {
+  width: 100%;
+  max-width: 800px;
+}
+
+#content h1 {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+#content p {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.form {
+  text-align: left;
+}
