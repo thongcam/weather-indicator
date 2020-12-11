@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./semantic.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="./semantic.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="ui container center" style="text-align: center;">
+    <h1 class="ui header blue">Weather Indicator - User Interface Testing</h1>
+    <div class="ui divider"></div>
+    <br>
+    <div id="main" class="ui container">
+        <div id="content">
+            <!-- Intro -->
+            <h2 class="ui header blue left aligned" id="content-header">Thank you for doing this test!</h2>
+            <div class="ui visible large message" id="tutorial">
+                <p class="ui content gray" id="tutorial-message">In this test you will be presented several different interfaces which will display some weather data. Each interface will be shown for 3 seconds. After that, you will be asked to write down all the information you acquired from the interface.</p>
+            </div>
+            <br>
+            <div class="ui container">
+                <button class="ui primary button right floated aligned" id="start-tutorial">Start tutorial!</button>
+            </div>
+            <br><br><br>
+            <div class="ui warning message" id="reload-warning">
+            <div class="header">
+                Please do not reload the webpage during the test!
+            </div>
+            </div>
+            <!-- Tutorial - Image -->
+            <!-- <h2 class="ui header blue left aligned">Interface 0 (example)</h2>
+            <div class="ui visible large message">
+                <p class="ui content gray">The display will be shown for 3 seconds.</p>
+            </div>
+            <h3 id="counter" class="ui header">3 seconds left</h3>
+            <img src="./image/sample.jpg" alt="" class="ui image big fluid centered">
+            <br>
+            <button class= "ui primary button right floated aligned" disabled>What did you see?</button>
+            <button class="ui hollowed button right floated aligned">Back</button> -->
+            <!-- Tutorial - Input -->
+            <!-- <h2 class="ui header blue left aligned">Interface 0 (example)</h2>
+            <div class="ui visible large message">
+                <p class="ui content gray">You can type in the text field what you see. After you are done, click the done button. Don't worry that you are wrong - the interfaces are being tested, not you!</p>
+            </div>
+            <br>
+            <div class="ui form">
+            <div class="field">
+                <label class="left aligned">What did you see?</label>
+                <textarea name="" id="" cols="30" rows="2" placeholder="Type something..."></textarea>
+            </div>
+            </div>
+            <button class="ui button toggle left floated" style="margin-top: 5px;">Done</button>
+            <br><br><br>
+            <button class="ui button toggle right floated green">Do the test!</button>
+            <button class="ui hollowed button right floated aligned">Back</button> -->
+            <!-- Real test - Image -->
+            <!-- <h2 class="ui header blue left aligned">Interface 1</h2>
+            <h3 id="counter" class="ui header">Image will be shown in 3 seconds.</h3>
+            <div class="ui fluid placeholder">
+                <div class="image"></div>
+            </div>
+            <img src="./image/sample.jpg" alt="" class="ui image big fluid centered">
+            <br>
+            <button class= "ui primary button right floated aligned" disabled>What did you see?</button> -->
+            <!-- Real test - Input -->
+            <!-- <h2 class="ui header blue left aligned">Interface 1/3</h2>
+            <br>
+            <div class="ui form">
+            <div class="field">
+                <label class="left aligned">What did you see?</label>
+                <textarea name="" id="" cols="30" rows="2" placeholder="Type something..."></textarea>
+            </div>
+            </div>
+            <button class="ui button toggle left floated" style="margin-top: 5px;">Done</button>
+            <br><br><br>
+            <button class="ui button toggle right floated green">Next interface</button> -->
+            <!-- Outro -->
+            <!-- <br><br><br><br><br><br>
+            <h2 class="ui header blue center"> Thank you so much for doing this test! 🎉</h2>
+            <h3>Your contribution will help us build a better product!</h3> -->
+            
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
